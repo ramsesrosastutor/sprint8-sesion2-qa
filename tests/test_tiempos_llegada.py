@@ -20,7 +20,7 @@ def test_tiempo_hora_pico():
     distancia = 9
     velocidad = 18
     tiempo = distancia / velocidad * 60
-    assert tiempo == 30
+    assert tiempo == 25
 
 
 def test_tiempo_con_espera():
